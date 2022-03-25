@@ -6,7 +6,7 @@ import Error from 'pages/Error';
 import Admin from 'pages/Admin';
 
 // const apiOrigin = "http://192.168.1.109:5000";
-const apiOrigin = "http://localhost:5000/";
+let apiOrigin = "http://localhost:5000/";
 
 if (process.env.NODE_ENV === 'production') {
 	apiOrigin = "/";
