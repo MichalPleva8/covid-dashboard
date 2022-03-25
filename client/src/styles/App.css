@@ -1,0 +1,48 @@
+.logo {
+	height: 32px;
+	margin: 16px;
+	color: #eee !important;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.site-page-header {
+	padding-left: 0 !important;
+}
+
+/* Login page */
+.login-form {
+	width: 100%;
+	max-width: 375px !important;
+}
+
+.login-form-forgot {
+	float: right !important;
+}
+
+.login-form-forgot {
+	float: left !important;
+}
+
+.login-form-button {
+	width: 100% !important;
+}
+
+/* DataTable */
+/* .column-money::after:not(:frist-child) {
+	content: '€';
+	margin-left: 2px;
+} */
+
+.site-form-in-drawer-wrapper {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  padding: 10px 16px;
+  text-align: right;
+  background: #fff;
+  border-top: 1px solid #e9e9e9;
+}
