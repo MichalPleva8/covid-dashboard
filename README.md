@@ -20,7 +20,7 @@ npm install
 
 - After that you need to run express server and react app at the same time 
 - In one terminal go to **/client** and run ``` npm start ```
-- In one terminal go to **/** and run ``` npm start ```
+- In one terminal go to **/server** and run ``` node server.js ```
 
 # Technologies 💻
 - MySQL 
