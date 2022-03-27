@@ -3,6 +3,8 @@ Web App made for covid 19 testing
 
 You can try this app on [covid-gov.herokuapp.com](https://covid-gov.herokuapp.com/)
 
+<img src="/docs/cvd.png" alt="App preview" />
+
 # What it does ?
 
 In this web application you can:
