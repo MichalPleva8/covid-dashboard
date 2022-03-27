@@ -5,12 +5,17 @@ import Home from 'pages/Home';
 import Error from 'pages/Error';
 import Admin from 'pages/Admin';
 
-// const apiOrigin = "http://192.168.1.109:5000";
-let apiOrigin = "http://localhost:5000/";
+import { DataControler } from 'services/DataControler.js';
 
-if (process.env.NODE_ENV === 'production') {
-	apiOrigin = "/";
-}
+// const apiOrigin = "http://192.168.1.109:5000";
+// let apiOrigin = "http://localhost:5000/";
+
+// if (process.env.NODE_ENV === 'production') {
+// 	apiOrigin = "/";
+// }
+
+let api = new DataControler();
+let apiOrigin = api.apiOrigin;
 
 function App() {
 	return (
