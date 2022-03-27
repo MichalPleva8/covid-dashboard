@@ -3,15 +3,6 @@ const router = express.Router();
 const mysql = require('mysql');
 const bcrypt = require('bcrypt');
 
-// let db;
-
-// if (process.env.NODE_ENV === 'production') {
-//   db = {
-//     host: process.env.HOST,
-
-//   }
-// }
-
 // let conn = mysql.createConnection({
 //   host: 'localhost',
 //   user: 'root',
@@ -19,21 +10,12 @@ const bcrypt = require('bcrypt');
 //   database: 'health'
 // });
 
-console.log("APi: ", {
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  database: process.env.DB_DATABASE,
-});
-
 const conn = mysql.createConnection({
   host: process.env.DB_HOST,
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
   database: process.env.DB_DATABASE,
 });
- 
-// conn.connect();
 
 // Get all tests
 router.get('/tests', (req, res) => {
